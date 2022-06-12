@@ -3,9 +3,9 @@
 
 // Fonts
 
-$sans-serif: 'Open Sans', sans-serif;
+$sans-serif: 'Dancing Script', cursive;
 $serif: Merriweather, Georgia, 'Times New Roman', serif;
-$accent-font: 'Nunito', sans-serif;
+$accent-font: 'Dancing Script', cursive;
 
 // Weights
 
@@ -42,7 +42,7 @@ p {
   font-size: $font-size-p;
   line-height: $base-line-height;
   color: $txt-primary;
-  padding-bottom: 20px;
+  padding-bottom: 4px;
 }
 
 h1 {
