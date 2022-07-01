@@ -2,10 +2,19 @@
 @import "partials/colors";
 
 // Fonts
+@font-face {
+    font-family: 'MahoganyOpti-Script';
+    src: url('css/MahoganyOptiScript.woff2') format('woff2'),
+        url('css/MahoganyOptiScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
-$sans-serif: 'MahoganyOpti-Script', Dancing Script', cursive;
+
+$sans-serif: 'Dancing Script', cursive;
 $serif: Merriweather, Georgia, 'Times New Roman', serif;
-$accent-font: 'MahoganyOpti-Script', 'Dancing Script', cursive;
+$accent-font: 'MahoganyOpti-Script', cursive;
 
 // Weights
 
