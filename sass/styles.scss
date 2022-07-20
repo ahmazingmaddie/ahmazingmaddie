@@ -100,7 +100,6 @@ section .header {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  text-transform: capitalize;
   background-color: #000;
   border-radius: 4px;
 }
@@ -308,7 +307,6 @@ header {
 
   a {
     color: $txt-light;
-    text-transform: uppercase;
     font-size: $nav-font-size;
 
     &.login {
@@ -319,7 +317,7 @@ header {
     display: inline-block;
   }
   .logo img {
-    height: 19px;
+    height: 26px;
   }
   ul.primary-nav {
     margin: 0 0 0 75px;
@@ -334,6 +332,7 @@ header {
 
         &:hover {
           color: $accent-color;
+          text-decoration: underline;
         }
       }
       &:last-child a {
@@ -564,7 +563,6 @@ Features-stack
   .time {
     font-size: 13px;
     font-style: italic;
-    text-transform: lowercase;
     color: $txt-primary;
   }
 }
@@ -587,7 +585,6 @@ Features-stack
     font-size: $blog-post-title;
     color: $txt-accent;
     font-weight: $semibold;
-    text-transform: uppercase;
     margin-top: 35px;
   }
   .btn {

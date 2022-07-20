@@ -25,14 +25,14 @@ $bold: 700;
 
 // Sizes
 
-$font-size-h1: 60px;
-$font-size-h2: 40px;
-$font-size-h3: 24px;
-$font-size-h4: 18px;
-$font-size-h5: 15px;
-$font-size-p: 15px;
-$nav-font-size: 13px;
-$blog-post-title: 11px;
+$font-size-h1: 70px;
+$font-size-h2: 55px;
+$font-size-h3: 30px;
+$font-size-h4: 22px;
+$font-size-h5: 20px;
+$font-size-p: 20px;
+$nav-font-size: 18px;
+$blog-post-title: 15px;
 
 // Responsive Sizes
 
@@ -68,7 +68,6 @@ h3 {
   color: $h3-color;
   font-size: $font-size-h4;
   font-weight: $bold;
-  text-transform: uppercase;
   letter-spacing: 3px;
   line-height: $base-line-height;
 }
@@ -80,6 +79,5 @@ h4 {
 h5 {
   font-size: $font-size-h5;
   color: $h5-color;
-  text-transform: uppercase;
   font-weight: $semibold;
 }
